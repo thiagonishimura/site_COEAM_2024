@@ -840,7 +840,7 @@ a[href*='tel'], a[href*='mailto'] {
 		text-align: left;
 	}
 	.box-icon-modern > * + * {
-		margin-top: 0;
+		margin-top: 30;
 		margin-left: 30px;
 	}
 	.box-icon-modern .box-icon-inner:before {
@@ -7073,6 +7073,30 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-nav-item + .rd-nav-item {
 	margin-left: 38px;
+}
+
+/* Define o estilo do submenu */
+.rd-dropdown-menu {
+    display: none;
+	font-weight: 300;
+    position: absolute;
+    background-color: #fff; /* Cor de fundo do submenu */
+    border: 1px solid #ccc; /* Borda do submenu */
+	border-radius: 5px;
+    padding: 10px;
+    opacity: 0; /* Começa com opacidade 0 para esconder o submenu */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a propriedade de opacidade */
+}
+
+/* Exibe o submenu quando o item "Projetos" é hover */
+.rd-dropdown:hover .rd-dropdown-menu {
+    display: block;
+    opacity: 0.8; /* Ao exibir o submenu, ajusta a opacidade para 1 */
+}
+
+/* Destaca o submenu com uma cor diferente quando o mouse está sobre ele */
+.rd-dropdown-menu li:hover {
+    background-color: #f0f0f0; /* Cor de fundo destacada */
 }
 
 .rd-navbar-static .rd-nav-link {
