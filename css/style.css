@@ -396,6 +396,8 @@ p [style*='max-width'] {
 
 .brand .brand-logo-light {
 	display: none;
+	width: 80;
+	height: 80;
 }
 
 .brand .brand-logo-dark {
