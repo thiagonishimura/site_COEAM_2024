@@ -726,6 +726,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-icon-inner {
 	position: relative;
+	width: 150px;
 }
 
 .box-icon-inner > * {
@@ -833,7 +834,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-icon-modern > * + * {
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 @media (min-width: 576px) {
@@ -843,7 +844,7 @@ a[href*='tel'], a[href*='mailto'] {
 	}
 	.box-icon-modern > * + * {
 		margin-top: 30;
-		margin-left: 30px;
+		margin-left: 10px;
 	}
 	.box-icon-modern .box-icon-inner:before {
 		left: 85%;
@@ -3889,6 +3890,18 @@ textarea.form-input {
 /*
 * Posts
 */
+
+.titulo {
+	padding: 4px 10px;
+	border-radius: 3px;
+	background: #323232;
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: .05em;
+}
 
 .badge {
 	padding: 4px 10px;
