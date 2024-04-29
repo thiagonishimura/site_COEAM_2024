@@ -34,6 +34,12 @@ button:focus {
 	outline: none !important;
 }
 
+
+a.link:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+    /* border-bottom: 2px solid blue; Adiciona uma linha sólida azul abaixo do link */
+  }
+
 button::-moz-focus-inner {
 	border: 0;
 }
@@ -3903,6 +3909,20 @@ textarea.form-input {
 	letter-spacing: .05em;
 }
 
+table {
+    width: 500px;
+    border-collapse: collapse;
+  }
+  th {
+    background-color: rgb(238, 238, 238);
+    color: rgb(28, 83, 28);
+    padding: 10px;
+  }
+  th, td {
+    border: 1px solid rgb(204, 233, 204);
+    padding: 10px;
+  }
+
 .badge {
 	padding: 4px 10px;
 	border-radius: 3px;
@@ -5434,7 +5454,7 @@ h3 + .group-xl {
 .section-md,
 .section-lg,
 .section-xl {
-	padding: 50px 0;
+	padding: 10px 0;
 }
 
 .section-xxl {
@@ -5504,7 +5524,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 1200px) {
 	.section-lg {
-		padding: 115px 0;
+		padding: 25px 0;
 	}
 	.section-xl {
 		padding: 135px 0;
