@@ -3938,7 +3938,7 @@ table {
 .badge2 {
 	padding: 4px 10px;
 	border-radius: 3px;
-	background: #019e1b;
+	background: #41A451;
 	/* text-transform: uppercase; */
 	font-size: 30px;
 	line-height: 20px;
@@ -3950,6 +3950,11 @@ table {
 .badge:hover {
 	color: #ffffff;
 	background: #41A451;
+}
+
+.badge2:hover {
+	color: #41A451;
+	background: #ffffff;
 }
 
 .badge:focus, .badge:active {
@@ -13746,4 +13751,60 @@ html .dtp .invisible {
     padding: 8px;
     border: 2px solid #ccc;
 	border-radius: 5px;
+}
+
+.coluna-lisa {
+    display: table-cell;
+    padding: 8px;
+	border-radius: 5px;
+	color: #03691d;
+	font-weight: 600;
+}
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.tg td{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:5px 5px;
+	word-break:normal;
+}
+
+.tg th{
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg .tg-iqbg{
+	background-color:#015002;
+	color:#ffffff;
+	text-align:center;
+	vertical-align:top;
+}
+
+.tg .tg-amwm{
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top;
+	color: #015002;
+}
+
+.tg .tg-0lax{
+	text-align:left;
+	vertical-align:top;
+	text-align: center;
 }
