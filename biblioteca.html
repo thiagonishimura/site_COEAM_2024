@@ -82,61 +82,79 @@
       <section class="section section-lg bg-white">
         <div class="container">
           <div class="row row-30 row-md-60">
-            
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Oficinas" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Oficinas</a></h4>
+                  <p>Encontre materiais e documentos das oficinas realizadas na COEAM.</p>
                 </div>
               </div>
             </div>
-
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Artigos" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Artigos</a></h4>
+                  <p>Leia os artigos publicados pela nossa equipe.</p>
                 </div>
               </div>
             </div>
-
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Modelo de documentos" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Modelo de documentos</a></h4>
+                  <p>Modelos de documentos para download.</p>
                 </div>
               </div>
             </div>
-
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Imagens" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Imagens</a></h4>
+                  <p>Galeria de imagens e gráficos.</p>
                 </div>
               </div>
             </div>
-
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Tutoriais" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Tutoriais</a></h4>
+                  <p>Tutoriais para ajudar na utilização das ferramentas.</p>
                 </div>
               </div>
             </div>
-
+      
             <div class="col-md-6 col-lg-4">
               <div class="box-icon-modern">
-                <div><img src="images/pasta.png" alt="" width="40" height="40"/></div>
+                <div class="icon-box">
+                  <img src="images/pasta.png" alt="Dicas" width="40" height="40"/>
+                </div>
                 <div class="box-icon-caption">
                   <h4><a href="#">Dicas</a></h4>
+                  <p>Dicas e truques para facilitar seu trabalho.</p>
                 </div>
               </div>
             </div>
-
+      
           </div>
         </div>
       </section>
@@ -176,3 +194,47 @@
     <script src="js/script.js"></script>
   </body>
 </html>
+
+<style>
+  .box-icon-modern {
+    background-color: #f8f9fa;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    min-height: 150px; /* Define uma altura mínima para todas as caixas */
+  }
+
+  .box-icon-modern:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .box-icon-modern .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .box-icon-caption h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .box-icon-caption p {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .box-icon-modern a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+
+  .box-icon-modern a:hover {
+    color: #0056b3;
+  }
+</style>
